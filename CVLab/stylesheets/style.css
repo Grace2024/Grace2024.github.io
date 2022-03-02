@@ -1,11 +1,98 @@
+@media screen and (max-width: 992px) {
+    .avatar,
+    .avatar>img{
+        width: 100%;
+    }
+    
+    .intro-block .content{
+        width: 100%;
+    }
+
+    .intro-block>.row{
+        flex-direction: column;
+    }
+
+    .avatar{
+        max-width: 150px;
+    }
+
+    .education-item{
+        width: 50%;
+    }
+
+    .other-blocks>*{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .education-item{
+        width: 100%;
+    }
+    
+}
+
 .primary{
     color: slateblue;
 }
+.secondary{
+    color: #689;
+}
+.title{
+    font-size: 24px;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
 
+.education-item{
+    display: flex;
+    align-items: center;
+    width: 33.33333%;
+}
+.education-item .logo{
+    width: 20%;
+}
+.education-item .logo img{
+    width: 100%;
+}
+.education-item ul li{
+    list-style: none;
+    padding: 5px 0;
+}
+.education-item ul :nth-child(1){
+    color: #aaa;
+}
+.education-item ul :nth-child(2){
+    font-weight: 700;
+    font-size: 20px;
+}
+.education-item ul :nth-child(3){
+    color: cornflowerblue;
+}
+.other-blocks{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.other-blocks h3{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #689;
+}
+.other-blocks>div{
+    width: 50%;
+}
+.other-blocks>*{
+    box-sizing: border-box;
+}
+.skill{
+    padding-right: 5px;
+}
+.language{
+    padding-left: 5px;
+}
 .row{
     display: flex;
     flex-wrap: wrap;

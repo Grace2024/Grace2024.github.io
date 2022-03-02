@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\Downloads\\Day1-Lab"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ITI_HTML_CSS",
+		"editor.wordWrap": "on"
+	}
+}
